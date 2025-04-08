@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Birat Roka's portfolio of web development projects including full-stack applications and mobile apps">
+    <title>Portfolio | Birat Roka - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Birat Roka</a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">My <span>Projects</span></h1>
+                    <p class="hero-subtitle">A collection of my recent work and contributions</p>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="web">Web Development</button>
+                        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio-section container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+          
+              <!-- Grocery Mart App -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2018/03/16/16/58/online-shopping-3239282_1280.jpg" alt="Grocery Mart App" class="project-image">
+                <h3 class="project-title">Advanced Grocery Mart App</h3>
+                <p class="project-description">An e-commerce app more advanced than JioMart, built with the MERN stack and a powerful admin dashboard.</p>
+                <a href="https://github.com/birat04/grocery-mart-app" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+              <!-- Personal Portfolio Website -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2015/01/20/13/13/laptop-605239_1280.jpg" alt="Portfolio Website" class="project-image">
+                <h3 class="project-title">Portfolio Website</h3>
+                <p class="project-description">My personal website made using HTML, CSS, JS — features responsive layout and project filtering.</p>
+                <a href="https://github.com/birat04/portfolio" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+              <!-- Real-Time Chat App -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="Chat App" class="project-image">
+                <h3 class="project-title">Real-Time Chat App</h3>
+                <p class="project-description">A WebSocket/Socket.IO based chat app with JWT authentication, message storage, and room support.</p>
+                <a href="https://github.com/birat04/chat-app" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+              <!-- Collaborative Document Editor -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2017/06/06/00/53/technology-2377045_1280.jpg" alt="Collaborative Editor" class="project-image">
+                <h3 class="project-title">Collaborative Doc Editor</h3>
+                <p class="project-description">A real-time collaborative editor using React, WebSockets, and MongoDB/PostgreSQL for syncing content.</p>
+                <a href="https://github.com/birat04/realtime-doc-editor" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+              <!-- Cricket Live Score Website -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2013/04/12/20/58/cricket-102778_1280.jpg" alt="Cricket Live Score Website" class="project-image">
+                <h3 class="project-title">Cricket Live Score Website</h3>
+                <p class="project-description">Built with Next.js and third-party API to show live cricket scores with match and player data.</p>
+                <a href="https://github.com/birat04/cricket-live-score" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+              <!-- Air Quality Monitoring System -->
+              <div class="project-card">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/industry-1869750_1280.jpg" alt="Air Quality Monitoring" class="project-image">
+                <h3 class="project-title">Air Quality Monitoring</h3>
+                <p class="project-description">IoT-based air quality monitor using low-cost sensors and cloud integration for real-time visualization.</p>
+                <a href="https://github.com/birat04/air-quality-monitor" target="_blank" class="btn primary">View Project</a>
+              </div>
+          
+            </div>
+          </section>
+          
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Have a project in mind?</h2>
+                <p>I'm available for freelance work and collaborations. Let's build something amazing together!</p>
+                <a href="contact.html" class="btn primary">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> Birat Roka. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
