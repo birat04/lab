@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore Birat Roka's portfolio of web development projects including full-stack applications and mobile apps">
-    <title>Portfolio | Birat Roka - Full Stack Developer</title>
+    <meta name="description" content="View Birat Roka's portfolio of web development projects">
+    <title>Portfolio - Birat Roka</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -32,82 +30,218 @@
     </header>
 
     <main>
+        <!-- Portfolio Hero Section -->
         <section class="portfolio-hero">
             <div class="container">
-                <div class="hero-content">
-                    <h1 class="hero-title">My <span>Projects</span></h1>
-                    <p class="hero-subtitle">A collection of my recent work and contributions</p>
-                    <div class="filter-buttons">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="web">Web Development</button>
-                        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-                        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <div class="portfolio-hero-content">
+                    <h1 class="section-title">My Projects</h1>
+                    <p class="portfolio-hero-description">
+                        A collection of my recent work and projects showcasing my skills and expertise.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Filter -->
+        <section class="portfolio-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-grid">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1556741533-6e6a62bd8b49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="E-commerce Platform">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-description">
+                                A full-featured e-commerce platform built with MERN stack, featuring real-time inventory management and secure payment processing.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Task Management App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-description">
+                                A cross-platform task management application built with React Native, featuring offline support and cloud synchronization.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React Native</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">Redux</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="UI/UX Design System">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">UI/UX Design System</h3>
+                            <p class="project-description">
+                                A comprehensive design system with reusable components, patterns, and guidelines for consistent user experiences.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Figma</span>
+                                <span class="tag">Design System</span>
+                                <span class="tag">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Social Media Dashboard">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Social Media Dashboard</h3>
+                            <p class="project-description">
+                                A real-time social media analytics dashboard with data visualization and reporting features.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">D3.js</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card" data-category="app">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Fitness Tracking App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Fitness Tracking App</h3>
+                            <p class="project-description">
+                                A mobile application for tracking workouts, nutrition, and health metrics with personalized recommendations.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Flutter</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">HealthKit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="#" class="project-link" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Portfolio Website</h3>
+                            <p class="project-description">
+                                A modern, responsive portfolio website showcasing creative work and professional experience.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">HTML/CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">GSAP</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="portfolio-section container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-          
-              <!-- Grocery Mart App -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2018/03/16/16/58/online-shopping-3239282_1280.jpg" alt="Grocery Mart App" class="project-image">
-                <h3 class="project-title">Advanced Grocery Mart App</h3>
-                <p class="project-description">An e-commerce app more advanced than JioMart, built with the MERN stack and a powerful admin dashboard.</p>
-                <a href="https://github.com/birat04/grocery-mart-app" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-              <!-- Personal Portfolio Website -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2015/01/20/13/13/laptop-605239_1280.jpg" alt="Portfolio Website" class="project-image">
-                <h3 class="project-title">Portfolio Website</h3>
-                <p class="project-description">My personal website made using HTML, CSS, JS — features responsive layout and project filtering.</p>
-                <a href="https://github.com/birat04/portfolio" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-              <!-- Real-Time Chat App -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="Chat App" class="project-image">
-                <h3 class="project-title">Real-Time Chat App</h3>
-                <p class="project-description">A WebSocket/Socket.IO based chat app with JWT authentication, message storage, and room support.</p>
-                <a href="https://github.com/birat04/chat-app" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-              <!-- Collaborative Document Editor -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2017/06/06/00/53/technology-2377045_1280.jpg" alt="Collaborative Editor" class="project-image">
-                <h3 class="project-title">Collaborative Doc Editor</h3>
-                <p class="project-description">A real-time collaborative editor using React, WebSockets, and MongoDB/PostgreSQL for syncing content.</p>
-                <a href="https://github.com/birat04/realtime-doc-editor" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-              <!-- Cricket Live Score Website -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2013/04/12/20/58/cricket-102778_1280.jpg" alt="Cricket Live Score Website" class="project-image">
-                <h3 class="project-title">Cricket Live Score Website</h3>
-                <p class="project-description">Built with Next.js and third-party API to show live cricket scores with match and player data.</p>
-                <a href="https://github.com/birat04/cricket-live-score" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-              <!-- Air Quality Monitoring System -->
-              <div class="project-card">
-                <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/industry-1869750_1280.jpg" alt="Air Quality Monitoring" class="project-image">
-                <h3 class="project-title">Air Quality Monitoring</h3>
-                <p class="project-description">IoT-based air quality monitor using low-cost sensors and cloud integration for real-time visualization.</p>
-                <a href="https://github.com/birat04/air-quality-monitor" target="_blank" class="btn primary">View Project</a>
-              </div>
-          
-            </div>
-          </section>
-          
-
+        <!-- Call to Action -->
         <section class="cta-section">
             <div class="container">
-                <h2>Have a project in mind?</h2>
-                <p>I'm available for freelance work and collaborations. Let's build something amazing together!</p>
-                <a href="contact.html" class="btn primary">Get In Touch</a>
+                <div class="cta-content">
+                    <h2 class="cta-title">Have a Project in Mind?</h2>
+                    <p class="cta-description">
+                        Let's work together to bring your ideas to life. Get in touch to discuss your project requirements.
+                    </p>
+                    <a href="contact.html" class="btn primary">
+                        Contact Me
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
             </div>
         </section>
     </main>
