@@ -1,28 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="refresh" content="0; URL=home.html" />
-  <title>Redirecting to Home</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
-    a {
-      color: #3498db;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Birat Roka's portfolio website">
+    <title>Welcome - Birat Roka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta http-equiv="refresh" content="3;url=home.html">
 </head>
 <body>
-  <p>Redirecting to <a href="home.html">home.html</a>... If you're not redirected, click the link.</p>
+    <div class="redirect-container">
+        <div class="redirect-content">
+            <div class="spinner"></div>
+            <h1 class="redirect-title">Welcome to My Portfolio</h1>
+            <p class="redirect-message">Redirecting you to the homepage...</p>
+            <p class="redirect-link">If you are not redirected automatically, <a href="home.html">click here</a>.</p>
+        </div>
+    </div>
+
+    <script>
+        
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
